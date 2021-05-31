@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .sedan{
+      position: relative; 
+      float: left;
+      color: white; 
+      text-align: left;
+      height: 500px;
+      width: 290px;
+      margin-left: 260px;
+      margin-top: 170px;
+      margin-bottom: 130px;     
+      font-size: 13px; 
+    }
+    .suvs{
+      position: relative;
+      float: left;
+      color: white; 
+      text-align: left;
+      height: 500px;
+      width: 290px;
+      margin-top: 170px;
+      margin-bottom: 130px;
+      font-size: 13px;
+    }
+    .luxury{
+      position: relative;
+      float: right;
+      color: white; 
+      text-align: left;
+      height: 500px;
+      width: 290px;
+      margin-right: 277px;
+      margin-top: 170px;
+      margin-bottom: 130px;
+      font-size: 13px;
+    }
+    .div1{
+      margin-left: 50px;
+      margin-top: 50px;
+      margin-right: 50px;
+      line-height: 1.7;
+    }
+    .lmb{
+      margin-left: 50px;
+      margin-top: 85px;
+    }
+  </style>
+</head>
+<body>
+  <font face="Verdana">
+  <div style="background-color:#e28525" class="sedan" >
+    <div class="div1">
+    <img src="sedans.png">
+    <h1>Sedans</h1>
+     Choose a sedan for its <br>
+     affordability and excellent<br>
+     fuel economy. Ideal for <br>
+     cruising in the city or on <br>
+     your next road trip. <br>
+     </div> 
+     <input type="image" src="learn_more_sedans.png" class="lmb">
+  </div>
+  </font>
+  <font face="Verdana">
+  <div style="background-color:#016972" class="suvs">
+     <div class="div1">
+     <img src="suvs.png">
+     <h1>SUVs</h1>
+     Take an SUV for its spacious<br>
+     interior, power, and <br>
+     versatility. Perfect for your<br>
+     next family vacation and <br>
+     off-road adventures. <br>
+   </div>
+   <input type="image" src="learn_more_suvs.png" class="lmb">
+  </div>
+  </font>
+  <font face="Verdana">
+  <div style="background-color:#00403f" class="luxury">
+     <div class="div1">
+     <img src="luxury.png">
+     <h1>Luxury</h1>
+     Cruise in the best car brands <br>
+     without the bloated prices.<br> 
+     Enjoy the enhanced comfort <br>
+     of a luxury rental and arrive <br>
+     in style.<br>
+   </div>
+   <input type="image" src="learn_more_luxury.png" class="lmb">
+  </div>
+  </font>
+</body>
+</html>
